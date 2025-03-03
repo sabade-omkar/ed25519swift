@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "ed25519swift",
+            type: .static,
             targets: ["ed25519swift"])
     ],
     dependencies: [
